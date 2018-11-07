@@ -1,0 +1,3 @@
+.myTable tr:nth-child(even) {background: #eee}
+.myTable tr:nth-child(odd) {background: #fff}
+.ngx-pagination{float:right !important;}

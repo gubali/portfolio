@@ -1,0 +1,7 @@
+.table-condensed>thead>tr>th{text-align: center}
+.form-control{border-radius:0 !important}
+.panel-body{padding:6px;}
+h2{margin:0;font-size:15px;}
+.fa-trash{color:#e82534}
+.fa-edit{color:green}
+.fa-trash, .fa-edit{font-size:20px;}

@@ -1,0 +1,39 @@
+<div class="container text-center">
+  <h3>4:43 -> class property</h3>
+  <button class="btn btn-success" [class.active]='myClass' >Class Binding</button>
+  <p>Style Property</p>
+  <button [style.backgroundColor]="isActive ? 'red' : 'green'">Style Property</button>
+<br />
+<div (click)='divClicked();'>
+  <button [style.backgroundColor]="'black'" (click)='myEvent($event)' style="color:#ffff">Style Property</button>
+ </div>
+<br/>
+<input type="text" class="form-control" (keyup.enter)= "OnkeyUp($event)" />
+<P>Template Vribale</P>
+<input type="text" [value] = "email" (keyup.enter) ="email = $event.target.value;templateVariable()" class="form-control" />
+
+<input type="text" [(ngModel)]= "asass" class="frm-control" />
+
+<h1>Introduction of Pipes</h1>
+<ul>
+  <li *ngFor="let hero of myCource">
+    Title: {{ hero.title | uppercase }} <br />
+    Student: {{hero.student | number}} <br />
+    Price: {{hero.price | currency: 'INR':true}} <br />
+    Date: {{hero.date | date:'medium'}} <br />
+  </li>
+  </ul>
+  <div>
+   <span class="fa fa-user"></span> {{text | summary}}
+  </div>
+  <!--compone api-->
+<div class="well">
+  <img [src] ="imageUrl" (click) ="fnAlert()" />
+  <div class="clerfix"></div>
+  <h2 class="text-align:center">
+    Building Re-usable component
+  </h2>
+ 
+  </div>
+
+</div>

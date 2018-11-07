@@ -1,0 +1,11 @@
+<div class="container-fluid myfooter">
+  <div class="container">
+  <div class="container row" style="padding: 10px;">
+  <label for="chkVisible">Footer Visible  </label>  <input type="checkbox" id="chkVisible" [(ngModel)]="isVisible" />
+     <span [ngStyle]= 'myStyle' [style.visibility]= "isVisible ? 'visible': 'hidden' ">Bottom Footer</span>
+     <button class="btn btn-success" (click) ="switchOnOff()">On/Off</button>
+     <h5 *ngIf="showText">Show Text Toggle</h5>
+  </div>
+  </div>
+  <div class="text-center">&#169; 2018-19</div>
+</div>

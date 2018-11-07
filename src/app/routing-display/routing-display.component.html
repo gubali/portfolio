@@ -1,0 +1,15 @@
+<div class="container">
+  {{todayDate}}
+<p><strong>
+  {{title}}
+</strong></p> <br />
+<a routerLink ='/doctorList' href="javaScript:void(0)">List of Items</a><br />
+<div class="clearfix"></div>
+<h1>{{perUnit}}</h1>
+<app-custome-component [name] ="item.name" [city] ="item.city" [salary] ="item.salary" [dept]="item.dept"
+*ngFor="let item of employeeList" class="col-lg-4">Emloyee gets here!</app-custome-component>
+<div class="clearfix"></div>
+<h3>{{perObject}}</h3>
+<app-team-info [teamList]="teamList" class="col-lg-4"></app-team-info>
+
+  </div>

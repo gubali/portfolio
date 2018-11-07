@@ -1,0 +1,8 @@
+<div class="container text-center">
+  <h1>Parent Component</h1>
+  <label>Bitcoin price</label>
+<input type="text" class="form-control"  type="text" #pcomponent (keyup)="0" />
+
+<p>Value of child component is: {{cData}}</p>
+<app-child [pData] ='pcomponent.value' (childEvent)="CData=$event"></app-child>
+</div>

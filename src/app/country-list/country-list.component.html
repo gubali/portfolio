@@ -1,0 +1,81 @@
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+         <div class="row">
+           <div class="col-lg-7">Countries Details</div>
+           <div class="col-lg-5"><input type="text" class="form-control" [(ngModel)]="queryString" name="filter"  /></div>
+    
+          </div> 
+
+        </div>
+        <div class="panel-body">
+            <table class="table table-condensed">
+                <thead>
+                  <tr>
+                    <th>NO</th>
+                    <th>Country Code</th>
+                    <th>Country Name</th>
+                    <th>Capital</th>
+                    <th>Language</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of countryList | filter: queryString | paginate: { itemsPerPage:15, currentPage: p }; let i = index">                  
+                  <!-- <tr *ngFor="let item of countryList | filter:'cca2' : query | paginate: { itemsPerPage:20, currentPage: p }; let i = index"> -->
+                    <td>{{i+1}}</td>
+                    <td>{{item.cca2}}</td>
+                    <td>{{item.name.common}}</td>
+                    <td >{{item.capital}}</td>
+                    <td>{{item.languages1}}</td>
+                  </tr>
+                 
+                </tbody>
+                
+
+              </table>
+<div class="row">
+  <div class="col-lg-7">  <strong>Total record is : {{totalLength}}</strong></div>
+    <div class="col-lg-5">
+        <pagination-controls (pageChange)="p = $event" class="floatRight"></pagination-controls>
+    </div>
+  </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+        {{title}}
+        </div>
+        <div class="panel-body">
+            <table class="table table-condensed">
+                <thead>
+                  <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of products;">                 
+                    <td>{{item.id}}</td>
+                    <td>{{item.title}}</td>
+                    <td>{{item.price}}</td>
+                    <td >{{item.stock}}</td>
+                    <td>
+                      <app-stock-status [productid]= 'item.id' [stock]= 'item.stock' (stockValueChange)= 'changeStockValue($event)'>
+                      </app-stock-status>
+                    </td>
+                  </tr>
+                 
+                </tbody>
+                
+
+              </table>
+
+        </div>
+      </div>
+<button class="btn -btn-success" (click) ="handleClick()" id="handle">Click</button>
+</div>
+

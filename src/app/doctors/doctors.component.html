@@ -1,0 +1,24 @@
+<div class="container">
+<a routerLink ='/' href="javaScript:void(0)">Back</a><br />
+<br />
+
+<ul class="display_docname">
+<li *ngFor="let doctorName of doctorsList" class="col-xs-3">
+  <a  style="padding-right:5px;" routerLink = 'https://stackblitz.com'>
+    {{doctorName.name}}
+  </a>
+</li>
+{{todayDate}}
+</ul>
+<div class="clearfix"></div>
+<h3>{{movieTitle}}</h3>
+
+<div *ngIf="toggleFlag">
+    <p *ngFor="let heroes of dcHeroes" >
+        <strong> {{heroes}}</strong>
+       </p>
+  </div>
+  <button type="button" (click)='toggleElem()'>Toggle</button>
+</div>
+
+

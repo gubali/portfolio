@@ -1,0 +1,7 @@
+<div class="container text-center">
+  <h1>Child Component</h1>
+  <label>Bitcoin price</label>
+<input type="text" class="form-control" #ccomponent (keyup)="onChange(ccomponent.value)" />
+
+<p>Value of Parent component is:    <strong>{{pData}}</strong> </p>
+</div>
