@@ -53,6 +53,7 @@ import { ChildComponent } from './child/child.component';
       {path: 'addList', component: AddListComponent},
       {path: 'fetchData', component: FetchDataComponent},
       {path: 'countryData', component: CountryListComponent},
+      {path: 'Udemy Test', component: UdemytestComponent},
       {path: '', component: RoutingDisplayComponent}
     ]),
     BrowserAnimationsModule,
