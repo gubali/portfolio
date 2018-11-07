@@ -1,4 +1,5 @@
 import { Component, OnInit ,Input} from '@angular/core';
+import { SummaryPipe } from '../summary.pipe';
 
 @Component({
   selector: 'app-udemytest',
@@ -33,9 +34,7 @@ console.log(this.email);
     rating: 2,
     price: 200,
     student:30330,
-    date: () =>{
-      console.log(new Date());
-    }
+    date: new Date()
 }];
 
 text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore `;

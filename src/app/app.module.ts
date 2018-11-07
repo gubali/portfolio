@@ -24,7 +24,7 @@ import { CrudOperationComponent } from './crud-operation/crud-operation.componen
 import { StockStatusComponent } from './stock-status/stock-status.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
-
+import { UdemytestComponent } from './udemytest/udemytest.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +42,8 @@ import { ChildComponent } from './child/child.component';
     CrudOperationComponent,
     StockStatusComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    UdemytestComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +54,7 @@ import { ChildComponent } from './child/child.component';
       {path: 'addList', component: AddListComponent},
       {path: 'fetchData', component: FetchDataComponent},
       {path: 'countryData', component: CountryListComponent},
-      {path: 'Udemy Test', component: UdemytestComponent},
+      {path: 'UdemyTest', component: UdemytestComponent},
       {path: '', component: RoutingDisplayComponent}
     ]),
     BrowserAnimationsModule,
