@@ -41,4 +41,8 @@ text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 
 imageUrl = "http://placehold.it/300/09f.png/fff";
 fnAlert = () =>{alert('Click On Image!')}
+post = {
+  title: "Title",
+  isFavourite:true
+    }
 }
