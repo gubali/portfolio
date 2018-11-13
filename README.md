@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 online ng 6 api:
-https://stackblitz.com/edit/angular-d34blj
+https://angular-6-api.stackblitz.io
