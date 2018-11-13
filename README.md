@@ -29,3 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 online ng 6 api:
 https://angular-6-api.stackblitz.io
+npm install -g @angular/cli@6
+To update to RxJS 6, you simply run -
+npm install --save rxjs@6
