@@ -32,3 +32,5 @@ https://angular-6-api.stackblitz.io
 npm install -g @angular/cli@6
 To update to RxJS 6, you simply run -
 npm install --save rxjs@6
+angular 6 project
+https://github.com/only2dhir/angular6-example.git
