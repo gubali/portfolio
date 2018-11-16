@@ -39,3 +39,10 @@ https://stackblitz.com/edit/angular-wzzyzc?file=src/app/app.component.html//ddl 
 https://angular-wzzyzc.stackblitz.io
 
 https://github.com/bahurudeen/ng5bootstrap4: CRUD
+var pwd = "qqq132222@@@";
+var Exp = /^[a-zA-Z0-9]*$/gm;
+
+if(!pwd.match(Exp))
+    alert("ERROR");
+else
+    alert("SUCCESS");
