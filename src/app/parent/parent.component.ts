@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent implements OnInit {
-public cData: number;
+public cData: number;z
   constructor() { }
 
   ngOnInit() {

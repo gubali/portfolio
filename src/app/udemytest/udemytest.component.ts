@@ -24,7 +24,14 @@ email = "khan@gmail.com";
 templateVariable(){
 console.log(this.email);
 }
-  constructor() { }
+
+myArray = [1,3,7];
+even = (elem) =>{
+  return elem % 2 ===0;
+};
+  constructor() { 
+    console.log(this.myArray.some(this.even));
+  }
 
   ngOnInit() {
   }
@@ -41,8 +48,15 @@ text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 
 imageUrl = "http://placehold.it/300/09f.png/fff";
 fnAlert = () =>{alert('Click On Image!')}
-post = {
-  title: "Title",
-  isFavourite:true
-    }
+
+     ourPets = [{
+      animalType: "cat",
+      names:["Meozer","fluffy","kit-Cat"]
+    },
+    {
+      animalType: "dog",
+      names:["bark","bhaon","oan oan"]
+    }]
+   
+    
 }

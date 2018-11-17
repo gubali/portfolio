@@ -12,7 +12,8 @@ listNavitem = [
   {id: '3', name: 'Add List', link: 'addList'},
   {id: '5', name: 'Fetch Data', link: 'fetchData'},
   {id: '6', name: 'Country List', link: 'countryData'},
-  {id: '7', name: 'Udemy Tutorial', link: 'UdemyTest'}
+  {id: '7', name: 'Udemy Tutorial', link: 'UdemyTest'},
+  {id: '8', name: 'Parent to Child', link: 'parent2child'}
 ];
 
 }

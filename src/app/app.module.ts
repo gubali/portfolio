@@ -25,6 +25,9 @@ import { StockStatusComponent } from './stock-status/stock-status.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { UdemytestComponent } from './udemytest/udemytest.component';
+import { FavouriteComponent } from './favourite/favourite.component';
+import { Parent2ChildComponent } from './parent2-child/parent2-child.component';
+import { Child2ParentComponent } from './child2-parent/child2-parent.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +46,10 @@ import { UdemytestComponent } from './udemytest/udemytest.component';
     StockStatusComponent,
     ParentComponent,
     ChildComponent,
-    UdemytestComponent
+    UdemytestComponent,
+    FavouriteComponent,
+    Parent2ChildComponent,
+    Child2ParentComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +61,7 @@ import { UdemytestComponent } from './udemytest/udemytest.component';
       {path: 'fetchData', component: FetchDataComponent},
       {path: 'countryData', component: CountryListComponent},
       {path: 'UdemyTest', component: UdemytestComponent},
+      {path: 'parent2child', component: Parent2ChildComponent},
       {path: '', component: RoutingDisplayComponent}
     ]),
     BrowserAnimationsModule,
