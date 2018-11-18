@@ -3,7 +3,7 @@
       <h3>Parent Component</h3>
       <h3>Value from Child Component:: {{childData}}</h3>
       <input type="text" placeholder="Parent Text" #parenText (keyup)="o" class="form-control">
-      <app-child2-parent (childEvent)='childData=$event' [parentData]="parenText.value"></app-child2-parent>
+      <app-child2-parent (childEvent)='childData=$event' [asw]="parenText.value"></app-child2-parent>
       
     </div>
   
