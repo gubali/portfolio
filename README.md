@@ -46,3 +46,16 @@ if(!pwd.match(Exp))
     alert("ERROR");
 else
     alert("SUCCESS");
+    
+    ===========================
+for smooth scroll to target elemnt
+let smoothSc = () => {
+      var elment = document.getElementById("targeelemnt+id+class");
+      if (elment) {
+        setTimeout(() => {
+          elment.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+        }, 0 );
+    }
+    }
+    smoothSc();
+    
