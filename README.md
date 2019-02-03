@@ -59,3 +59,10 @@ let smoothSc = () => {
     }
     smoothSc();
     
+    /** for array method using npm **/
+    
+    
+    npm i @types/lodash --save-dev
+    
+    
+    /***end**/
