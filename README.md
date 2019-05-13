@@ -66,3 +66,7 @@ let smoothSc = () => {
     
     
     /***end**/
+    
+    skype: window.location.href="sip:<xyx.com>" on click function;
+    
+    cors: options2  =  new  RequestOptions({ withCredentials:  true  }); pass it into body
