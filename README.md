@@ -74,4 +74,12 @@ let smoothSc = () => {
 Papular interview Question:  https://www.freecodecamp.org/news/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 https://envato.com/blog/pure-css-animation-snippets
-    
+Top 100 Js Quest:: https://medium.com/@credosystemz/top-100-javascript-interview-questions-with-answers-145ceee552f0
+Handle Error: , (error: any) => {
+console.log(error);
+} 
+
+
+Angular interview Quest:: https://github.com/sudheerj/angular-interview-questions
+
+
