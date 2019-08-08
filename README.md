@@ -82,4 +82,7 @@ console.log(error);
 
 Angular interview Quest:: https://github.com/sudheerj/angular-interview-questions
 
+=============build commad=======================
+ng build --prod --aot false --base-href /{project_name}/
+
 
