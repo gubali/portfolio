@@ -85,4 +85,6 @@ Angular interview Quest:: https://github.com/sudheerj/angular-interview-question
 =============build commad=======================
 ng build --prod --aot false --base-href /{project_name}/
 
+=================Unit testing sorce code by naveen pete===========================
+https://github.com/skewcode/webinars/tree/master/16-angular-unittesting
 
