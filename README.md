@@ -1,4 +1,4 @@
-# HealthApp
+# Impo Keys
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
@@ -88,3 +88,7 @@ ng build --prod --aot false --base-href /{project_name}/
 =================Unit testing sorce code by naveen pete===========================
 https://github.com/skewcode/webinars/tree/master/16-angular-unittesting
 
+==============
+
+1) ng serve (normal)
+2) ng serve -o(directly browse on server)
